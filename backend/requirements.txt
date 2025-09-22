@@ -1,0 +1,9 @@
+tensorflow
+opencv-python
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+scikit-learn
+matplotlib
+paddleocr
