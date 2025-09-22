@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.h5
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / Vite
+node_modules/
+dist/
+
+# VSCode
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db
