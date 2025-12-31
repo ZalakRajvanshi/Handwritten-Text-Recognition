@@ -31,14 +31,13 @@ with preprocessing, inference, API, and frontend.
 This model focuses on **character-level recognition** and does not use
 any language model or spell correction.
 
----
 
 ## 📌 Project Scope
 
 This project focuses on single-line handwritten text recognition, enabling a clean, efficient, and reliable OCR pipeline.
 The narrow scope ensures strong character-level accuracy and provides a solid foundation for future extensions.
 
----
+
 
 ## 🖥️ System Architecture
 
@@ -55,7 +54,7 @@ FastAPI Endpoint
 React Frontend
 
 
----
+
 
 ## 🔧 Tech Stack
 
@@ -65,7 +64,7 @@ React Frontend
 - **FastAPI**
 - **React (Vite)**
 
----
+
 
 ## ▶️ How to Run
 ---
@@ -88,9 +87,9 @@ npm run dev
 Open browser:
 http://localhost:5173
 
----
+
 🎓 What This Project Demonstrates
----
+
 Training and deploying ML models
 
 Debugging model–architecture mismatches
@@ -111,10 +110,12 @@ Integrate language model
 
 Extend to full-page handwritten notes (v3)
 
+
 👤 Author
 Zalak Rajvanshi
 AI / ML Developer
 Focus: Applied Machine Learning & OCR Systems
+
 
 
 
