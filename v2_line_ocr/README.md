@@ -65,17 +65,23 @@ FastAPI
 React (Vite)
 
 ▶️ How to Run
-Backend
-cd backend
+
+Backend:
+
+cd backend  
 uvicorn main:app --reload
 
-Frontend
-cd frontend
-npm install
+
+Frontend:
+
+cd frontend  
+npm install  
 npm run dev
+
+
 Open your browser at: http://localhost:5173
 
-🎓 What This Project Demonstrates
+## 📚 What This Project Demonstrates
 
 Training and deploying ML models
 
@@ -87,14 +93,17 @@ Honest problem scoping
 
 End-to-end AI system building
 
-🔜 Future Work
+## 🔜 Future Work
+
 Add beam search decoding
 
 Integrate a language model
 
 Extend to full-page handwritten notes (v3)
 
-👤 Author
+##👤 Author
+
 Zalak Rajvanshi
 AI / ML Developer
 Focus: Applied Machine Learning & OCR Systems
+
