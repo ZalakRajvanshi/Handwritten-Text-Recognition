@@ -33,14 +33,10 @@ any language model or spell correction.
 
 ---
 
-## 📌 Scope (Important)
+## 📌 Project Scope
 
-✔ Designed for **single-line handwritten text only**  
-❌ Not suitable for full-page documents  
-❌ No layout or paragraph understanding  
-❌ No language model post-processing  
-
-Minor spelling errors are expected and acceptable for this scope.
+This project focuses on single-line handwritten text recognition, enabling a clean, efficient, and reliable OCR pipeline.
+The narrow scope ensures strong character-level accuracy and provides a solid foundation for future extensions.
 
 ---
 
@@ -119,6 +115,7 @@ Extend to full-page handwritten notes (v3)
 Zalak Rajvanshi
 AI / ML Developer
 Focus: Applied Machine Learning & OCR Systems
+
 
 
 
