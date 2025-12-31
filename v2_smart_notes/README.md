@@ -76,9 +76,11 @@ React Frontend
 ### Backend
 
 cd backend
+
 uvicorn main:app --reload
 
 ### Frontend
+
 cd frontend
 npm install
 npm run dev
@@ -108,3 +110,4 @@ Extend to full-page handwritten notes (v3)
 Zalak Rajvanshi
 AI / ML Developer
 Focus: Applied Machine Learning & OCR Systems
+
