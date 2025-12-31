@@ -72,6 +72,7 @@ React Frontend
 ---
 
 ## ▶️ How to Run
+---
 
 ### Backend
 
@@ -87,12 +88,13 @@ npm install
 
 npm run dev
 
+
 Open browser:
 http://localhost:5173
 
-
+---
 🎓 What This Project Demonstrates
-
+---
 Training and deploying ML models
 
 Debugging model–architecture mismatches
@@ -102,6 +104,7 @@ Importance of preprocessing consistency
 Honest problem scoping
 
 End-to-end AI system building
+
 
 🔜 Future Work
 
@@ -116,6 +119,7 @@ Extend to full-page handwritten notes (v3)
 Zalak Rajvanshi
 AI / ML Developer
 Focus: Applied Machine Learning & OCR Systems
+
 
 
 
