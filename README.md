@@ -9,15 +9,7 @@ Each version is intentionally scoped and documented to reflect real-world AI/ML 
 
 ## 📂 Project Structure
 
-Handwritten-Text-Recognition/
-├── v1_basic/
-│ └── Basic handwritten text recognition experiments
-│
-├── v2_line_ocr/
-│ └── Single-line handwritten OCR system (production-style demo)
-│
-└── README.md
-
+<img width="431" height="179" alt="Screenshot 2025-12-31 195855" src="https://github.com/user-attachments/assets/ee07f4bb-2e72-4800-a451-24d489afb233" />
 
 ---
 
@@ -72,3 +64,4 @@ Each version reflects a different stage of learning and engineering maturity.
 **Zalak Rajvanshi**  
 AI / ML Developer  
 Focus: Applied Machine Learning & AI Systems
+
