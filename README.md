@@ -1,86 +1,67 @@
-Handwritten Text Recognition
+# Handwritten Text Recognition – AI/ML Projects
 
-A project for recognizing handwritten digits, letters, and full-line text using deep learning and OCR. This project leverages MNIST and EMNIST datasets for training models and uses PaddleOCR for line-level text recognition.
+This repository contains multiple versions of handwritten text recognition projects,
+showing a clear progression from **model training fundamentals** to a **working end-to-end OCR system**.
 
----
-
-Features
-
-- Digit recognition (0–9) using a convolutional neural network trained on MNIST
-- Letter recognition (A–Z, a–z) using EMNIST ByClass dataset
-- Line-level text recognition using PaddleOCR
-- Modular and testable code structure
-- Python backend scripts for training, preprocessing, and inference
+Each version is intentionally scoped and documented to reflect real-world AI/ML engineering practices.
 
 ---
 
-Project Structure
+## 📂 Project Structure
 
-Handwritten-Text-Recognition/
-├── data/ # Raw datasets (MNIST, EMNIST)
-├── models/ # Trained models and checkpoints
-├── notebooks/ # Jupyter notebooks for experimentation
-├── src/
-│ ├── preprocessing/ # Image preprocessing scripts
-│ ├── training/ # Model training code
-│ ├── inference/ # Prediction scripts
-├── samples/ # Example images for testing
-├── tests/ # Unit tests
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Files/folders to ignore in Git
-
+<img width="431" height="179" alt="Screenshot 2025-12-31 195855" src="https://github.com/user-attachments/assets/ee07f4bb-2e72-4800-a451-24d489afb233" />
 
 ---
 
-Installation
+## 🔹 Version Overview
 
-1. Clone the repository:
+### **v1_basic – Foundations**
+- Focus: Understanding handwritten text recognition
+- Work includes:
+  - Dataset exploration
+  - CRNN architecture
+  - Training experiments
+- Status: Learning & experimentation
 
+👉 See [`v1_basic/README.md`](./v1_basic/README.md)
 
-git clone https://github.com/ZalakRajvanshi/Handwritten-Text-Recognition.git
-cd Handwritten-Text-Recognition
-Create a virtual environment:
+---
 
+### **v2_line_ocr – Single-Line OCR System**
+- Focus: End-to-end ML system for handwritten OCR
+- Includes:
+  - Custom-trained CRNN model (IAM Line dataset)
+  - Proper preprocessing & CTC decoding
+  - FastAPI backend
+  - React frontend demo
+- Scope: **Single-line handwritten text only**
 
-python -m venv venv
-Activate the virtual environment:
+👉 See [`v2_line_ocr/README.md`](./v2_line_ocr/README.md)
 
-On Windows:
+---
 
+## 🎯 Purpose of This Repository
 
-.\venv\Scripts\activate
-On macOS/Linux:
+This repo is designed to:
+- Demonstrate **AI/ML model development**
+- Show **real-world debugging and iteration**
+- Highlight **honest scoping and system design**
+- Provide **interview-ready projects**
 
+Each version reflects a different stage of learning and engineering maturity.
 
-source venv/bin/activate
-Install Python dependencies:
+---
 
+## 🚀 Future Work
 
-pip install -r requirements.txt
-Usage
+- **v3 (planned)**: Full-page handwritten notes → structured digital notes  
+  (layout understanding, headings, paragraphs, search, export)
 
-Training a Model
-python src/training/train.py --dataset emnist
+---
 
-Running Inference
-python src/inference/predict.py --image samples/sample.png
+## 👤 Author
 
-Testing
-To run unit tests:
-
-
-pytest tests/
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgements
-MNIST and EMNIST datasets
-
-PaddleOCR for line-level text recognition
-
-Open-source Python libraries used for model development
-
-
-
+**Zalak Rajvanshi**  
+AI / ML Developer  
+Focus: Applied Machine Learning & AI Systems
 
