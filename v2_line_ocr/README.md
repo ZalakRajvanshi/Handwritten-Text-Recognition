@@ -1,56 +1,73 @@
-# v1 – Basic Handwritten Text Recognition (Foundations)
+v2 – Single-Line Handwritten OCR (CRNN)
+This project is a working, end-to-end handwritten OCR system designed specifically for single-line handwritten text recognition.
 
-This version represents the **initial learning and experimentation phase**
-of handwritten text recognition using deep learning.
+It demonstrates how a trained ML model can be integrated into a real system with preprocessing, inference, API, and frontend.
 
-The goal of v1 was to understand:
-- How handwriting datasets are structured
-- How CRNN models work
-- How CTC loss is used for sequence prediction
+🚀 Features
+CRNN-based handwritten OCR
+Trained on the IAM Line dataset
+Proper preprocessing alignment with training
+Greedy CTC decoding
+FastAPI backend for inference
+React frontend for live demo
+Fully offline (no external APIs)
+🧠 Model Overview
+Architecture: CRNN (CNN + BiLSTM + CTC)
+Input: Single-line handwritten image
+Output: Recognized text string
+Loss: CTC Loss
+Decoding: Greedy CTC decoding
+This model focuses on character-level recognition and does not use any language model or spell correction.
 
----
+📌 Project Scope
+This project focuses on single-line handwritten text recognition, enabling a clean, efficient, and reliable OCR pipeline. The narrow scope ensures strong character-level accuracy and provides a solid foundation for future extensions.
 
-## 🎯 Objectives
+🖥️ System Architecture
+Image Upload ↓ Preprocessing (resize, normalize, invert) ↓ CRNN Model ↓ CTC Decoding ↓ FastAPI Endpoint ↓ React Frontend
 
-- Learn handwritten text recognition concepts
-- Experiment with CRNN architecture
-- Train models on handwriting datasets
-- Understand preprocessing and decoding basics
+🔧 Tech Stack
+Python
+PyTorch
+OpenCV
+FastAPI
+React (Vite)
+▶️ How to Run
+Backend
+cd backend
 
----
+uvicorn main:app --reload
 
-## 🔧 What Was Done
+Frontend
+cd frontend
 
-- Explored handwritten text datasets
-- Implemented CRNN (CNN + RNN) models
-- Used CTC loss for sequence learning
-- Ran multiple training experiments
-- Observed common OCR challenges
+npm install
 
----
+npm run dev
 
-## 📌 Scope & Limitations
+Open browser: http://localhost:5173
 
-- Experimental code
-- Not production-ready
-- Accuracy varies
-- No frontend or API
-- Intended for learning, not deployment
+🎓 What This Project Demonstrates
+🎓 What This Project Demonstrates
 
----
+Training and deploying ML models
 
-## 🧠 Key Learnings
+Debugging model–architecture mismatches
 
-- Importance of preprocessing consistency
-- Sensitivity of CRNNs to input formatting
-- Challenges of handwritten OCR without language models
-- Need for proper problem scoping
+Importance of preprocessing consistency
 
----
+Honest problem scoping
 
-## 🔜 Next Step
+End-to-end AI system building
 
-The lessons from v1 directly led to **v2**, where the project was redesigned
-with a clear scope and production-style structure.
+🔜 Future Work
 
-👉 See `v2_line_ocr` for the improved system.
+Add beam search decoding
+
+Integrate language model
+
+Extend to full-page handwritten notes (v3)
+
+👤 Author 
+Zalak Rajvanshi 
+AI / ML Developer 
+Focus: Applied Machine Learning & OCR Systems
