@@ -101,7 +101,7 @@ Integrate a language model
 
 Extend to full-page handwritten notes (v3)
 
-##👤 Author
+## 👤 Author
 
 Zalak Rajvanshi
 AI / ML Developer
