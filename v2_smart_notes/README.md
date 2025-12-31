@@ -82,7 +82,9 @@ uvicorn main:app --reload
 ### Frontend
 
 cd frontend
+
 npm install
+
 npm run dev
 
 Open browser:
@@ -92,20 +94,28 @@ http://localhost:5173
 🎓 What This Project Demonstrates
 
 Training and deploying ML models
+
 Debugging model–architecture mismatches
+
 Importance of preprocessing consistency
+
 Honest problem scoping
+
 End-to-end AI system building
 
 🔜 Future Work
 
+
 Add beam search decoding
+
 Integrate language model
+
 Extend to full-page handwritten notes (v3)
 
 👤 Author
 Zalak Rajvanshi
 AI / ML Developer
 Focus: Applied Machine Learning & OCR Systems
+
 
 
